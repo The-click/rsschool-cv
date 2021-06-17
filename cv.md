@@ -30,7 +30,7 @@ function factorial(n) {
 
 ### **Education**
 
-==Russian Academy of National Economy and Public Administration== - SZIU Branch, Faculty of Business Informatics (student)
+> Russian Academy of National Economy and Public Administration - SZIU Branch, Faculty of Business Informatics (student)
 
 #### **Additonal eductaion**
 
