@@ -13,52 +13,59 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <section class="wrapper">
 
-        <div class="intro">
-            <div class="logo"><img src="./img/logo.png" alt=""><span>ёвый </br>дизайнер</span></div>
-            <img class="avatar" src="./img/icons/user.svg" alt="">
-            <h2 class="title name">Oleg Samoylov</h2>
-            <div class="contact">
-                <a class="contact-link email" href="mailto:0leg.19-94@mail.ru"><img src="gmail.svg" alt="e-mail"> </a>
-                <a class="contact-link" href="https://github.com/The-click"><img src="github-logo.png" alt="github"></a>
-                <a class="contact-link" href="https://t.me/the_0_click"><img src="telegram.svg" alt="telegram"></a>
-            </div>
-        </div>
+        <section class="intro">
+            <div class="logo"><img src="./img/logo.png" alt=""><span>ёвый <br>дизайнер</span></div>
+            <figure>
+                <img class="avatar" src="./img/icons/user.svg" alt="">
+                <figcaption>
+                    <h2 class="title name">Oleg Samoylov</h2>
+                </figcaption>
+            </figure>
+
+            <nav class="contact">
+                <ul>
+                    <li class="contact-link email" href="mailto:0leg.19-94@mail.ru"><img src="./img/icons/gmail.svg" alt="e-mail"> </li>
+                    <li class="contact-link" href="https://github.com/The-click"><img src="./img/icons/github-logo.png" alt="github"></li>
+                    <li class="contact-link" href="https://t.me/the_0_click"><img src="./img/icons/telegram.svg" alt="telegram"> </li>
+                </ul>
+            </nav>
+        </section>
         <main>
-            <div class="block about">
+            <section class="block about">
                 <div class="container">
                     <h3 class="title about-title">About me</h3>
                     <div class="about-text text">I plan to start my career as a web developer, get a job in a good company with a friendly team. My strengths are fast learnability and structural thinking</div>
                 </div>
-            </div>
-            <div class="block skills">
+            </section>
+            <section class="block skills">
                 <div class="container">
                     <h3 class="title skills-title">
                         Skills
                     </h3>
-                    <div class="skills-items text">
-                        <span class="skills-item">HTML</span>
-                        <span class="skills-item">CSS</span>
-                        <span class="skills-item">Javascript</span>
-                        <span class="skills-item">Markdown</span>
-                        <span class="skills-item">Git</span>
-                        <span class="skills-item">React</span>
-                    </div>
+                    <ul class="skills-items text">
+                        <li class="skills-item">HTML </li>
+                        <li class="skills-item">CSS </li>
+                        <li class="skills-item">Javascript</li>
+                        <li class="skills-item">Markdown </li>
+                        <li class="skills-item">Git </li>
+                        <li class="skills-item">React </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="block sample-code">
+            </section>
+            <section class="block sample-code">
                 <div class="container">
                     <h3 class="title sample-title">
                         Code example
                     </h3>
-                    <code>
-                    <pre class="text">function factorial(n) {</br>   return (n != 1) ? n * factorial(n - 1) : 1;</br>}</pre>
-                </code>
-                </div>
-            </div>
 
-            <div class="block experience">
+                    <pre class="text"><code>function factorial(n) {<br>   return (n != 1) ? n * factorial(n - 1) : 1;<br>} </code></pre>
+
+                </div>
+            </section>
+
+            <section class="block experience">
                 <div class="container">
                     <h3 class="title experience-title">Work experience</h3>
                     <div class="experience-text text">
@@ -66,24 +73,24 @@
                     </div>
                 </div>
 
-            </div>
+            </section>
 
 
         </main>
-        <div class="footer">
-            <div class="block education">
+        <footer class="footer">
+            <section class="block education">
                 <div class="container">
                     <h3 class="title education-title">
                         Eductaion
                     </h3>
                     <div class="education-text text">
-                        <span>Russian Academy of National Economy and Public Administration</span> - SZIU Branch, Faculty of Business Informatics (student)
+                        <span>Russian Academy of National Economy and Public Administration</span> - <mark> SZIU Branch, Faculty of Business Informatics (student) </mark>
                     </div>
                 </div>
-            </div>
+            </section>
 
 
-            <div class="block additional">
+            <section class="block additional">
                 <div class="container">
                     <h3 class="title additional-title">
                         Additional education
@@ -93,9 +100,9 @@
                         <li class="addition-item">Courses from youtubers - <a class="link" href="https://www.youtube.com/c/FreelancerLifeStyle/playlists"> Click here</a></li>
                     </ul>
                 </div>
-            </div>
+            </section>
 
-            <div class="block language">
+            <section class="block language">
                 <div class="container">
                     <h3 class="title language-title">
                         Language
@@ -105,10 +112,11 @@
                         <li class="language-item">English (A2)</li>
                     </ul>
                 </div>
-            </div>
-        </div>
 
-    </div>
+            </section>
+        </footer>
+
+        </div>
 
 </body>
 
