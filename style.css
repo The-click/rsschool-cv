@@ -10,6 +10,10 @@ body {
     line-height: 1.5;
 }
 
+.wrapper {
+    margin: 0 auto;
+}
+
 
 /* First screen Header */
 
@@ -20,7 +24,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url("ibg__body.jpg");
+    background-image: url("./img/ibg__body.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,6 +34,7 @@ body {
 .avatar {
     width: 150px;
     border-radius: 50%;
+    margin: 0 auto;
 }
 
 .title {
@@ -50,6 +55,12 @@ body {
     animation: name-cursor .75s step-end 0s infinite;
 }
 
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 @keyframes name-cursor {
     0% {
         border-color: #000;
@@ -68,7 +79,7 @@ body {
     }
 }
 
-.contact {
+.contact ul {
     margin-top: 10px;
     padding: 5px 15px;
     display: flex;
@@ -112,7 +123,7 @@ body {
 
 main {
     padding: 10px;
-    background-image: url("ibg_new.jpg");
+    background-image: url("./img/ibg_new.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -166,9 +177,15 @@ li {
     margin-top: 50px;
 }
 
+.education-text mark {
+    font-style: italic;
+    color: white;
+    background: none;
+}
+
 .footer {
     padding: 10px;
-    background-image: url("ibg-.jpg");
+    background-image: url("./img/ibg-.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
