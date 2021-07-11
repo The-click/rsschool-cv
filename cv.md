@@ -16,9 +16,12 @@
 
 ```
 
-function factorial(n) {
-  return (n != 1) ? n * factorial(n - 1) : 1;
-}
+let generateColor = function() {
+  function getRandom(){
+    return (+(Math.random() * 255).toFixed(0)).toString(16)
+  }
+  return `#${getRandom()}${getRandom()}${getRandom()}`
+};
 
 ```
 
