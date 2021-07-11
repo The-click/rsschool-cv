@@ -24,7 +24,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url("./img/ibg__body.jpg");
+    background-image: url("ibg__body.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@ figure {
 
 main {
     padding: 10px;
-    background-image: url("./img/ibg_new.jpg");
+    background-image: url("ibg_new.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -189,7 +189,7 @@ li {
 
 .footer {
     padding: 10px;
-    background-image: url("./img/ibg-.jpg");
+    background-image: url("ibg-.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
