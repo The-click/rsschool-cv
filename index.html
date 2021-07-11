@@ -13,12 +13,12 @@
 </head>
 
 <body>
-    <section class="wrapper">
+    <div class="wrapper">
 
         <section class="intro">
-            <div class="logo"><img src="./img/logo.png" alt=""><span>ёвый <br>дизайнер</span></div>
+            <div class="logo"><img src="logo.png" alt=""><span>ёвый <br>дизайнер</span></div>
             <figure>
-                <img class="avatar" src="./img/icons/user.svg" alt="">
+                <img class="avatar" src="user.svg" alt="">
                 <figcaption>
                     <h2 class="title name">Oleg Samoylov</h2>
                 </figcaption>
@@ -26,9 +26,15 @@
 
             <nav class="contact">
                 <ul>
-                    <li class="contact-link email" href="mailto:0leg.19-94@mail.ru"><img src="gmail.svg" alt="e-mail"> </li>
-                    <li class="contact-link" href="https://github.com/The-click"><img src="github-logo.png" alt="github"></li>
-                    <li class="contact-link" href="https://t.me/the_0_click"><img src="telegram.svg" alt="telegram"> </li>
+                    <li class="contact-link email">
+                        <a href="mailto:0leg.19-94@mail.ru"><img src="gmail.svg" alt="e-mail"> </a>
+                    </li>
+                    <li class="contact-link">
+                        <a href="https://github.com/The-click"><img src="github-logo.png" alt="github"></a>
+                    </li>
+                    <li class="contact-link">
+                        <a href="https://t.me/the_0_click"><img src="telegram.svg" alt="telegram"> </a>
+                    </li>
                 </ul>
             </nav>
         </section>
@@ -74,10 +80,6 @@
                 </div>
 
             </section>
-
-
-        </main>
-        <footer class="footer">
             <section class="block education">
                 <div class="container">
                     <h3 class="title education-title">
@@ -88,8 +90,6 @@
                     </div>
                 </div>
             </section>
-
-
             <section class="block additional">
                 <div class="container">
                     <h3 class="title additional-title">
@@ -101,7 +101,6 @@
                     </ul>
                 </div>
             </section>
-
             <section class="block language">
                 <div class="container">
                     <h3 class="title language-title">
@@ -112,11 +111,18 @@
                         <li class="language-item">English (A2)</li>
                     </ul>
                 </div>
-
             </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <a href="https://github.com/The-click"><img src="github-logo.png" alt="github"></a>
+                <span>2021</span>
+                <a class="footer__logo" href="https://rs.school/js/"><img src="rs_school_js.svg" alt="logo"></a>
+            </div>
         </footer>
 
-        </div>
+    </div>
 
 </body>
 
